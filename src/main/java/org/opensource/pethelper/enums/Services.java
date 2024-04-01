@@ -4,14 +4,18 @@ public enum Services {
     GROOMER,
     SHELTER,
     VETERINARIAN,
-    PET_STORE {
-        @Override
-        public String toString() {
-            return formatEnumName(super.toString());
-        }
-    };
+    PARK,
+    BREEDER,
+    STORE;
 
-    private static String formatEnumName(String name) {
-        return name.replace('_', '-').toLowerCase();
-    }
+    // private final String formattedName;
+
+    // Services(String formattedName) {
+    // this.formattedName = formattedName;
+    // }
+
+    // public String getName() {
+    // return this.formattedName;
+    // }
+
 }

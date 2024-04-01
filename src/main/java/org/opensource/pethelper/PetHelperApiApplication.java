@@ -1,4 +1,4 @@
-package org.opensource.pethelper.pethelperapi;
+package org.opensource.pethelper;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
